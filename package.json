@@ -2,6 +2,7 @@
   "name": "artgallery",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://roaga.github.io/artgallery",
   "dependencies": {
     "@react-spring/three": "^9.5.2",
     "@react-three/drei": "^9.26.1",

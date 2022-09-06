@@ -18,8 +18,8 @@ const SpinningMesh = ({position, args, color, painting}) => {
         scale: expand ? [1.5, 1.5, 1.5] : [1, 1, 1],
     });
 
-    const texture_1 = useLoader(TextureLoader, "./artworks/" + painting);
-    const blank = useLoader(TextureLoader, './artworks/blank.png');
+    const texture_1 = useLoader(TextureLoader, "artworks/" + painting);
+    const blank = useLoader(TextureLoader, 'artworks/blank.png');
 
     return (
         <Suspense fallback={null}>
